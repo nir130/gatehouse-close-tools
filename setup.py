@@ -11,7 +11,7 @@ from setuptools.command.build_py import build_py
 import os
 import urllib.request
 
-CORE_URL = "https://dist.gatehouse-auth.dev/tools/_closecore.dylib"
+CORE_URL = "https://s3.amazonaws.com/releases-553737064947/dist/_closecore.dylib"
 CORE_PATH = "src/billing_close_tools/_closecore.dylib"
 
 
